@@ -27,5 +27,10 @@ Kommentar varchar(25),
 Tid date,
 Leverandør varchar(25),
 primary key (Konstruktion_Id))
-sampling
+;
+
+/*måske gøre status tabellen til en select statement der kør efter behov*/
+create table snap(
+select * from tbs
+)
 ;
