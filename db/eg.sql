@@ -17,6 +17,7 @@ Forventet_End date,
 Fase varchar(10), 
 Værdi float, 
 Kommenter varchar(25),
+Project_navn varchar(10),
 primary key (Project_ID)
 )
 ;
