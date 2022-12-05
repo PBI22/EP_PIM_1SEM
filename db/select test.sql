@@ -22,4 +22,6 @@ join design as d on p.Project_ID = d.Project
 join konstruktion as k on d.Design_ID = k.Design
 join sampling as s on k.Konstruktion_Id = s.Konstruktion
 ;
-
+#Missing column.
+Alter table portfolio
+add Project_name varchar(10);
