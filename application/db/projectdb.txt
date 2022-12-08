@@ -1,5 +1,0 @@
-Shoeproject1, Hans Jensen, 55, 2022-10-16, 2023-03-05, construction, 7 , Bob, Jens
-festivaljeans, Kim Andersen, 25, 2022-06-16, 2023-01-05, design, 55 , Claus, Bob
-FlippersX, Hans Jensen, 5, 2022-11-20, 2023-03-05, design, 7 , Clas, Bob
-Shoestrendy, Hans Jensen, 90, 2022-02-13, 2022-12-05, prototype, 7 , Jens, Lene
-tshirtssummer, Hans Jensen, 34, 2023-01-16, 2023-04-12, not started, 0 , x, xx 
