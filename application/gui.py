@@ -1,63 +1,6 @@
 import dearpygui.dearpygui as dpg
 
 from db_sql import DbManager
-test_data = {
-   "1": {
-      "name": "Shoeproject1",
-      "leader": "Hans Jensen",
-      "progress": 55,
-      "start": "16-10-2022",
-      "estend": "05-03-2023",
-      "stagedev": "construction",
-      "currenttime_stage_days": 7,
-      "current_responsible": "Bob",
-      "next_responsible": "Jens"
-   },
-   "2": {
-      "name": "festivaljeans",
-      "leader": "Kim Andersen",
-      "progress": 25,
-      "start": "16-06-2022",
-      "estend": "05-01-2023",
-      "stagedev": "design",
-      "currenttime_stage_days": 55,
-      "current_responsible": "Claus",
-      "next_responsible": "Bob"
-   },
-   "3": {
-      "name": "FlippersX",
-      "leader": "Hans Jensen",
-      "progress": 5,
-      "start": "20-11-2022",
-      "estend": "05-03-2023",
-      "stagedev": "design",
-      "currenttime_stage_days": 7,
-      "current_responsible": "Clas",
-      "next_responsible": "Bob"
-   },
-   "4": {
-      "name": "Shoestrendy",
-      "leader": "Hans Jensen",
-      "progress": 90,
-      "start": "13-02-2022",
-      "estend": "05-12-2022",
-      "stagedev": "prototype",
-      "currenttime_stage_days": 7,
-      "current_responsible": "Jens",
-      "next_responsible": "Lene"
-   },
-   "5": {
-      "name": "tshirtssummer",
-      "leader": "Hans Jensen",
-      "progress": 34,
-      "start": "16-01-2023",
-      "estend": "12-04-2023",
-      "stagedev": "not started",
-      "currenttime_stage_days": 0,
-      "current_responsible": "x",
-      "next_responsible": "xx"
-   }
-}
 
 W = 1600 # WITDH OF THE WINDOW
 H = 900 # HEIGHT OF THE WINDOW
@@ -130,7 +73,6 @@ with dpg.window(width=W-15, height=H-200, no_collapse=True, no_title_bar=True, n
             dpg.add_button(label="Slet Projekt", width=100, height=50)
 
 dpg.bind_font(default_font)
-#dpg.bind_theme(global_theme)
 
 dpg.setup_dearpygui()
 dpg.show_viewport()
