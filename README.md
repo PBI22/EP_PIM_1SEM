@@ -8,8 +8,7 @@ Dette eksamensprojekt har til formål at udvikle et generisk produktinformation 
 - Søge efter produkter ved navn, kategori osv.
 - Redigere eksisterende produktinformation
 - Filtrere produktlisten efter specifikke kriterier
-- Importere produktinformation fra en ekstern fil
-- Lav et brugervenligt grafisk brugergrænseflade (GUI) til at interagere med systemet
+- En grafisk brugergrænseflade (GUI) til at bearbejde data´en. 
 
 ## Teknologier
 
@@ -24,20 +23,13 @@ For at installere og bruge dette system skal du have Python 3 og en MySQL databa
 Du skal bruge følgende biblioteker:
 mysql-connector-python
 dearpygui
-Disse kan installeres ved hjælp af `pip install <biblotek>`.
+Disse kan installeres ved hjælp af `pip -r requirements.txt`.
 
 1. Klon dette repo til din computer
-2. Importer databasen ved hjælp af MySQL-kommandoen `xxxxxx`
-3. Kør applikationen ved hjælp af kommandoen `xxxxx`
+2. Tilkobl dig MySQL databasen ved at ændre db_login listen i `pim.py`
+3. Kør applikationen ved hjælp af kommandoen `python gui_main.py`
 
-## Eksempler
-
-Når du har kørt applikationen, kan du prøve følgende funktioner:
-
-- xxxx1
-- xxxx2
-- xxxx3
 
 ## Dokumentation
 
-Se [dokumentationen](docs/pim-docs.pdf) for yderligere detaljer om systemets arkitektur, kodestruktur og brug.
+Se [dokumentationen](docs/pim-docs.pdf) for yderligere detaljer om systemets arkitektur, kodestruktur og brug. // Kommer
